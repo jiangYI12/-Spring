@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d0bf0d1-316e-4d1e-a714-f04790518161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/webdefault.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring2.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/layouts/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/layouts/first.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beans/AbstractApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beans/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beans/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans/BeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beans/BeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/TestServiceTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/TestServiceTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myAnnotation/AutoWirse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myAnnotation/AutoWirse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myAnnotation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myAnnotation/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myAnnotation/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myAnnotation/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DispatchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +48,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="10" column="91" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="91" />
+            <state relative-caret-position="271">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DispatchServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,15 +93,6 @@
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/myAnnotation/AutoWirse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -173,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/beans/BeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/DispatchServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
@@ -263,6 +251,14 @@
               <item name="Spring2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565344735448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565344906998" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/第二期/源码/tom-space-master-37734ba918518bdf62c240279336f6730d459271/vip-20180303/gupaoedu-vip-spring-2.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -310,6 +306,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\Spring2.0\resources" />
       <recent name="E:\Project\Spring2.0" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlet" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="beans" />
@@ -337,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565310983969</updated>
-      <workItem from="1565310996042" duration="10709000" />
+      <workItem from="1565310996042" duration="10855000" />
     </task>
     <task id="LOCAL-00001" summary="spring1.0 IOC容器简易">
       <created>1565342846107</created>
@@ -346,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565342846107</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring1.0 IOC容器简易">
+      <created>1565344758087</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565344758087</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10709000" />
+    <option name="totallyTimeSpent" value="10855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -528,10 +534,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/DispatchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="10" column="91" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="91" />
+        <state relative-caret-position="271">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
