@@ -1,7 +1,7 @@
-package demo;
+package com.demo;
 
-import myAnnotation.AutoWirse;
-import myAnnotation.Controller;
+import com.myAnnotation.AutoWirse;
+import com.myAnnotation.Controller;
 
 /**
  * @Author ozj
@@ -14,4 +14,9 @@ public class TestController {
     TestService service;
     @AutoWirse
     TestServiceTwo serviceTwo;
+
+    public void  test(){
+        service.add();
+        serviceTwo.add();
+    }
 }
